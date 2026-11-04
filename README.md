@@ -1,103 +1,56 @@
-# Ali Nauman
-## Senior Software Engineer · Full Stack Developer
+![Ali Nauman — Senior Full Stack Engineer working with Angular, TypeScript and Node.js](assets/profile-header.svg)
 
-**Location:** Netherlands 🇳🇱
+<p align="center">
+  <strong>Utrecht, Netherlands 🇳🇱 · 8+ years building software</strong><br />
+  <a href="https://www.linkedin.com/in/alinauman1/">LinkedIn</a> ·
+  <a href="mailto:ali60351@gmail.com">Email</a> ·
+  <a href="https://github.com/Ali60351?tab=repositories">Repositories</a>
+</p>
 
-**Email:** [ali60351@gmail.com](mailto:ali60351@gmail.com)
+I build B2B products with complex interfaces and the APIs behind them. At **Fashion Cloud**, I work on **ordering and replenishment** across Angular/TypeScript frontends and Node.js services backed by MongoDB and Elasticsearch.
 
-**LinkedIn:** [alinauman1](https://www.linkedin.com/in/alinauman1/)
+I'm interested in **senior full stack and frontend engineering opportunities in the Netherlands**, especially teams where I can own work from product requirements through production.
 
-> "Motivation is the fuel for success"
+## 🧩 Selected work
 
-## Skills
+- **Multi-store replenishment:** Owned Angular UI and Node.js API work for auto-restock, taking the workflow from feature-flagged development through general availability. Led the schedule replenishment project with explicit active, paused and inactive states.
+- **Shared size matrices:** Centralized logic used by ordering and replenishment for waist/length, letter and plus sizes, prepacks, and translated validation.
+- **Brand page builder:** Co-built a multilingual builder, contributing drag-and-drop editing, asset uploads, previews and supporting APIs.
+- **Security and performance:** Moved authenticated image loading from query-string tokens to Authorization headers with client-side blob caching. Removed repeated catalog-access lookups from a products API.
+- **Production reliability:** Added hourly monitoring for replenishment orders that failed to export, using AWS EventBridge, Slack alerts and Terraform.
 
-**DevOps:** AWS (S3, EventBridge), CircleCI, Vercel  
-**Back-end:** Express, Django, Django REST Framework  
-**Front-end:** Angular, React, Vue  
-**Programming:** Node JS, JavaScript, TypeScript, Python  
+## 🛠️ Tools I work with
+
+| Area | Technologies |
+| --- | --- |
+| Frontend | Angular, TypeScript, RxJS |
+| Backend & data | Node.js, Express, MongoDB, Elasticsearch |
+| Production | AWS (S3, EventBridge), Terraform |
+| Earlier product work | React, Redux, Django, PostgreSQL |
+
+## 🤖 How I work with AI
+
+I use AI agents to accelerate planning and implementation. I wrote custom skills that compare tickets with product requirements, Figma designs and API contracts, surfacing gaps and recommending decisions before coding begins.
+
+## Previously at Arbisoft
+
+From **2018 to 2022**, I worked on recruitment, e-commerce and internal operations products. I built most of the React frontend for **Hirestream**, an applicant-tracking system, including authentication, rich-text editing, OAuth integrations, live feedback and Stripe payments. I also worked on **Unstack's** Shopify landing-page platform and **Workstream's** internal ERP.
+
+## 🌱 From the workshop
+
+**[Material RTE](https://github.com/Ali60351/material-rte)** — A React/TypeScript rich-text editor built on Draft.js and styled with Material UI, with custom themes, variables and hyperlinks. [View the npm package →](https://www.npmjs.com/package/material-rte)
+
+<details>
+<summary>A few earlier projects</summary>
+
+- **[Seiyuu Nostalgia](https://github.com/Ali60351/seiyuu-nostalgia)** — Explore voice-actor connections across anime you've watched. Vue and GraphQL.
+- **[Image Processing API](https://github.com/Ali60351/image-processing-api)** — Image resizing and conversion with Sharp, Express and TypeScript.
+- **[Quick-FIV](https://github.com/Ali60351/Quick-FIV)** — A desktop file-integrity checker built with Node.js, Electron and Vue.
+- **[Warframe Alerts](https://github.com/WFCD/warframe-alerts-win)** — Earlier desktop work with C# and Windows Forms.
+
+</details>
+
+---
+
+**Education:** B.S. in Computer Science, FAST National University (2014–2018)  
 **Languages:** English, Urdu
-
-## Professional Summary
-
-Full Stack Developer with 6 years of experience specializing in front-end development. Currently serving as Development Captain at Fashion Cloud, leading B2B solutions for garment ordering automation and digitization. Expert in requirement analysis, task management, cross-team communication, and team development. Demonstrated success in translating business requirements into actionable technical solutions while fostering team growth and collaboration.
-
-## Work Experience
-
-### Fashion Cloud B.V. - Amsterdam, Netherlands
-#### B2B Order - Development Captain (Jul 2022 - Present)
-* Regularly collaborate with product managers and designers to create solutions for the platform
-* Plan implementation of solutions, create digestible tickets and handle their delegation
-* Handle cross team communication to ensure no one is blocked
-* Proactively identify problems in the platform and create RFCs to address them
-* Give regular feedback and appraisals
-* Provide support to my colleagues in their tasks
-* **Tech Stack:** Angular, TypeScript, LESS, Node (Express), MongoDB, AWS (S3, EventBridge)
-
-### Arbisoft - Lahore, Pakistan
-#### Unstack (Shopify Landing Page Platform) - Senior Frontend Developer (Jan 2022 - Jun 2022)
-* Assist with implementation of custom flavor of JSX for purposes of template creation
-* Improve UX by adding additional properties and improving styles for template building blocks
-* **Tech Stack:** React, Redux, TypeScript, SCSS
-
-#### Hirestream (In-house ATS Solution) - Full Stack Developer (Mar 2019 - Jan 2022)
-* Setup JWT authorization
-* Implement custom rich text editor
-* Automate request feedback using Redux and custom middleware
-* Implement OAuth to connect with LinkedIn, Twitter and Google
-* Add Web Socket support for continuous user feedback
-* Implement payments using Stripe
-* Contribute most of the pages for the frontend using React
-* **Tech Stack:** React, Redux, TypeScript, SCSS, Django, PostgreSQL
-
-#### Workstream (In-house ERP Solution) - Full Stack Developer (Dec 2018 - Mar 2019)
-* Refactor codebase by shifting React class components to functional components
-* Create new pages using React and Redux
-* Improve test coverage using Django tests and JEST
-* **Tech Stack:** React, Redux, TypeScript, SCSS, Django, PostgreSQL
-
-#### Software Engineer (Jun 2018 - Dec 2018)
-* Implemented complex data crawlers using Scrapy, Splash and Js2Py
-* Create a demo app to showcase benefits of Golang for data crawling
-* Implement automation suite using Selenium
-
-## Certifications
-* [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/certificate/UC-76de0794-aca1-4e94-8f62-f791573322a0/) - Udemy, 2021
-
-## Education
-### FAST National University - Lahore, Pakistan
-**B.S. in Computer Science** (2014 - 2018)
-
-## Open Source Projects
-
-### Material RTE
-[Rich text editor for Material UI](https://github.com/Ali60351/material-rte)
-
-* Implement a Rich Text Editor using Draft JS as a base
-* Style it using Material UI theme and add support for custom theme
-* Add additional features like variable support and hyperlinks
-* **Tech Stack:** React JS, TypeScript
-
-### Seiyuu Nostalgia
-[Find voice actor links in your anime history](https://github.com/Ali60351/seiyuu-nostalgia)
-
-* Dive into all watched shows and shows all roles acted by a certain voice actor
-* **Tech Stack:** Vue JS, GraphQL
-
-### Image Processing API
-[API to easily convert and resize images](https://github.com/Ali60351/image-processing-api)
-
-* Implement image resizing and conversion using Sharp
-* API implemented with ExpressJS and TypeScript
-
-### Quick-FIV
-[A tool to quickly verify file integrity](https://github.com/Ali60351/Quick-FIV)
-
-* Developed application to verify integrity of files inside a folder recursively
-* Functions by storing hashes of all files present inside a folder inside a JSON file
-* **Tech Stack:** NodeJS, Electron, Vue JS, Vuetify JS
-
-### Warframe Alerts
-[Desktop application for in-game information](https://github.com/WFCD/warframe-alerts-win)
-
-* Utilizes official RSS feed as data source
-* **Tech Stack:** C#, Windows Forms API
