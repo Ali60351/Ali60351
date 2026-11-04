@@ -11,6 +11,8 @@ I build B2B products with complex interfaces and the APIs behind them. At **Fash
 
 I'm interested in **senior full stack and frontend engineering opportunities in the Netherlands**, especially teams where I can own work from product requirements through production.
 
+I hold a Dutch highly skilled migrant (HSM) residence permit and require an IND-recognised sponsor for my next role.
+
 ## 🧩 Selected work
 
 - **Multi-store replenishment:** Owned Angular UI and Node.js API work for auto-restock, taking the workflow from feature-flagged development through general availability. Led the schedule replenishment project with explicit active, paused and inactive states.
