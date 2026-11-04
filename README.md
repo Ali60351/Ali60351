@@ -55,4 +55,4 @@ From **2018 to 2022**, I worked on recruitment, e-commerce and internal operatio
 ---
 
 **Education:** B.S. in Computer Science, FAST National University (2014–2018)  
-**Languages:** English, Urdu, Dutch (Learning)
+**Languages:** English, Dutch (Learning)
