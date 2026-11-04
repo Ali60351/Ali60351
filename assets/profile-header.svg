@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title description">
+  <title id="title">Ali Nauman — Senior Full Stack Engineer</title>
+  <desc id="description">Angular, TypeScript and Node.js, with a decorative grid inspired by the interfaces Ali builds.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#162638" />
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#6ee7b7" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#6ee7b7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="320" rx="20" fill="url(#background)" />
+  <circle cx="1110" cy="75" r="260" fill="url(#glow)" />
+  <rect x="64" y="52" width="42" height="5" rx="2.5" fill="#a7f3d0" />
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="64" y="120" fill="#f1f5f9" font-size="52" font-weight="700">Ali Nauman</text>
+    <text x="64" y="170" fill="#dbe7f3" font-size="30">Senior Full Stack Engineer</text>
+    <text x="64" y="217" fill="#a7f3d0" font-size="22">Angular · TypeScript · Node.js</text>
+    <text x="64" y="268" fill="#94a3b8" font-size="17">Interfaces, APIs, and the work between.</text>
+  </g>
+  <rect x="910" y="40" width="306" height="240" rx="18" fill="#0b1523" fill-opacity="0.75" stroke="#334155" />
+  <g font-family="DejaVu Sans, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#94a3b8">
+    <text x="938" y="75">BUILD / SHIP / IMPROVE</text>
+  </g>
+  <g fill="#1e3448" stroke="#38516a">
+    <rect x="938" y="98" width="50" height="27" rx="5" />
+    <rect x="1000" y="98" width="50" height="27" rx="5" />
+    <rect x="1062" y="98" width="50" height="27" rx="5" />
+    <rect x="1124" y="98" width="64" height="27" rx="5" />
+    <rect x="938" y="137" width="50" height="27" rx="5" />
+    <rect x="1000" y="137" width="50" height="27" rx="5" fill="#a7f3d0" stroke="#a7f3d0" />
+    <rect x="1062" y="137" width="50" height="27" rx="5" />
+    <rect x="1124" y="137" width="64" height="27" rx="5" />
+    <rect x="938" y="176" width="50" height="27" rx="5" />
+    <rect x="1000" y="176" width="50" height="27" rx="5" />
+    <rect x="1062" y="176" width="50" height="27" rx="5" fill="#508f86" stroke="#6eb5a6" />
+    <rect x="1124" y="176" width="64" height="27" rx="5" />
+    <rect x="938" y="215" width="50" height="27" rx="5" />
+    <rect x="1000" y="215" width="50" height="27" rx="5" />
+    <rect x="1062" y="215" width="50" height="27" rx="5" />
+    <rect x="1124" y="215" width="64" height="27" rx="5" fill="#294f56" stroke="#508f86" />
+  </g>
+</svg>
