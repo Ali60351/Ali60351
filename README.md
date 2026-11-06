@@ -19,7 +19,7 @@ I hold a Dutch highly skilled migrant (HSM) residence permit and require an IND-
 - **Performance:** Reduced average API latency on the product detail page from 1,193 ms to 148 ms in a local 30-request sample by loading retailer groups once per request instead of once per article and running catalog access checks concurrently.
 - **Production reliability:** Traced orders stuck before export to the order engine missing its queue messages, then built an hourly AWS EventBridge and Terraform monitor that alerts the team in Slack. It flagged 25 orders for investigation from July to October 2026.
 - **Shared size matrix:** Centralized the size matrix for ordering and replenishment: waist and length, letter and plus sizes, prepacks and translated validation, extended through the product API and Elasticsearch.
-- **Team leadership:** Development captain on add-article, initial delivery and schedule replenishment. Wrote acceptance criteria for the strategy list, split epics into frontend and backend tickets for three engineers, and owned the API contract. Ran team sessions on Elasticsearch and Angular change detection.
+- **Team leadership:** Development captain on add-article, initial delivery and schedule replenishment. Wrote acceptance criteria for the strategy list, split epics into frontend and backend tickets for three engineers, and owned the API contract. Ran knowledge-sharing sessions on Elasticsearch and Angular change detection.
 - **Brand page builder:** Co-built a multilingual builder, contributing drag-and-drop editing, asset uploads, previews and supporting APIs.
 - **Security:** Moved authenticated image loading from query-string tokens to Authorization headers with client-side blob caching and backwards-compatible server support.
 
