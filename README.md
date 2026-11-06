@@ -7,7 +7,7 @@
   <a href="https://github.com/Ali60351?tab=repositories">Repositories</a>
 </p>
 
-I build B2B products with complex interfaces and the APIs behind them. At **Fashion Cloud**, I work on **ordering and replenishment** across Angular/TypeScript frontends and Node.js services backed by MongoDB and Elasticsearch.
+I build B2B products with complex interfaces and the APIs behind them. At **Fashion Cloud**, I deliver **ordering and replenishment** end to end using Angular, TypeScript and Node.js, with MongoDB and Elasticsearch. The platform serves around 250 brands and 14,000 retailers.
 
 I'm interested in **senior full stack and frontend engineering opportunities in the Netherlands**, especially teams where I can own work from product requirements through production.
 
@@ -15,28 +15,30 @@ I hold a Dutch highly skilled migrant (HSM) residence permit and require an IND-
 
 ## 🧩 Selected work
 
-- **Multi-store replenishment:** Owned Angular UI and Node.js API work for auto-restock, taking the workflow from feature-flagged development through general availability. Led the schedule replenishment project with explicit active, paused and inactive states.
-- **Shared size matrices:** Centralized logic used by ordering and replenishment for waist/length, letter and plus sizes, prepacks, and translated validation.
+- **Multi-store auto-restock:** Delivered the Angular interface and Node.js APIs, from feature flag to general availability, so 190 brands manage the stores of about 8,000 retailers from one screen. Led the scheduling change: explicit active, paused and inactive states replaced a date-field workaround about 100 brands relied on.
+- **Performance:** Reduced average API latency on the product detail page from 1,193 ms to 148 ms in a local 30-request sample by loading retailer groups once per request instead of once per article and running catalog access checks concurrently.
+- **Production reliability:** Traced orders stuck before export to the order engine missing its queue messages, then built an hourly AWS EventBridge and Terraform monitor that alerts the team in Slack. It flagged 25 orders for investigation from July to October 2026.
+- **Shared size matrix:** Centralized the size matrix for ordering and replenishment: waist and length, letter and plus sizes, prepacks and translated validation, extended through the product API and Elasticsearch.
+- **Team leadership:** Development captain on add-article, initial delivery and schedule replenishment. Wrote acceptance criteria for the strategy list, split epics into frontend and backend tickets for three engineers, and held the API contract with the tech lead. Ran team sessions on Elasticsearch and Angular change detection.
 - **Brand page builder:** Co-built a multilingual builder, contributing drag-and-drop editing, asset uploads, previews and supporting APIs.
-- **Security and performance:** Moved authenticated image loading from query-string tokens to Authorization headers with client-side blob caching. Removed repeated catalog-access lookups from a products API.
-- **Production reliability:** Added hourly monitoring for replenishment orders that failed to export, using AWS EventBridge, Slack alerts and Terraform.
+- **Security:** Moved authenticated image loading from query-string tokens to Authorization headers with client-side blob caching and backwards-compatible server support.
 
 ## 🛠️ Tools I work with
 
 | Area | Technologies |
 | --- | --- |
-| Frontend | Angular, TypeScript, RxJS |
-| Backend & data | Node.js, Express, MongoDB, Elasticsearch |
-| Production | AWS (S3, EventBridge), Terraform |
-| Earlier product work | React, Redux, Django, PostgreSQL |
+| Frontend | Angular, TypeScript, RxJS, React, Redux, JavaScript |
+| Backend & data | Node.js, REST APIs, MongoDB, PostgreSQL, Elasticsearch |
+| Infrastructure, testing & observability | AWS (EventBridge, SQS, S3), Docker, Terraform, Datadog, Jest |
+| Earlier work (Arbisoft) | Python, Django, Django REST Framework |
 
-## 🤖 How I work with AI
+## 🤖 How I work
 
-I use AI agents to accelerate planning and implementation. I wrote custom skills that compare tickets with product requirements, Figma designs and API contracts, surfacing gaps and recommending decisions before coding begins.
+I wrote the B2B ESLint style guide for the frontend and AI agent skills that check a Linear ticket against its PRD, Figma designs and API, then settle each gap with a recommendation before any code is written.
 
 ## Previously at Arbisoft
 
-From **2018 to 2022**, I worked on recruitment, e-commerce and internal operations products. I built most of the React frontend for **Hirestream**, an applicant-tracking system, including authentication, rich-text editing, OAuth integrations, live feedback and Stripe payments. I also worked on **Unstack's** Shopify landing-page platform and **Workstream's** internal ERP.
+From **2018 to 2022**, I worked on recruitment, e-commerce and internal operations products. I built most of the React frontend for **Hirestream**, an in-house applicant-tracking system, including authentication, rich-text editing, OAuth integrations, real-time updates over WebSockets and Stripe payments. I also worked on **Unstack's** Shopify landing-page platform and **Workstream's** internal ERP.
 
 ## 🌱 From the workshop
 
@@ -55,4 +57,4 @@ From **2018 to 2022**, I worked on recruitment, e-commerce and internal operatio
 ---
 
 **Education:** B.S. in Computer Science, FAST National University (2014–2018)  
-**Languages:** English, Dutch (Learning)
+**Languages:** English (professional working proficiency), Dutch (learning)
