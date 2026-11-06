@@ -11,15 +11,15 @@ I build B2B products with complex interfaces and the APIs behind them. At **Fash
 
 I'm interested in **senior full stack and frontend engineering opportunities in the Netherlands**, especially teams where I can own work from product requirements through production.
 
-I hold a Dutch highly skilled migrant (HSM) residence permit and require an IND-recognised sponsor for my next role.
+I'm a Dutch highly skilled migrant (HSM) residence permit holder, and a new employer must be an IND-recognised sponsor.
 
 ## 🧩 Selected work
 
 - **Multi-store auto-restock:** Delivered the Angular interface and Node.js APIs, from feature flag to general availability, so 190 brands manage the stores of about 8,000 retailers from one screen. Led the scheduling change: explicit active, paused and inactive states replaced a date-field workaround about 100 brands relied on.
-- **Performance:** Reduced average API latency on the product detail page from 1,193 ms to 148 ms in a local 30-request sample by loading retailer groups once per request instead of once per article and running catalog access checks concurrently.
-- **Production reliability:** Traced orders stuck before export to the order engine missing its queue messages, then built an hourly AWS EventBridge and Terraform monitor that alerts the team in Slack. It flagged 25 orders for investigation from July to October 2026.
-- **Shared size matrix:** Centralized the size matrix for ordering and replenishment: waist and length, letter and plus sizes, prepacks and translated validation, extended through the product API and Elasticsearch.
-- **Team leadership:** Development captain on add-article, initial delivery and schedule replenishment. Wrote acceptance criteria for the strategy list, split epics into frontend and backend tickets for three engineers, and owned the API contract. Ran knowledge-sharing sessions on Elasticsearch and Angular change detection.
+- **Performance:** Cut p75 load time of the reorder product page in production (Datadog RUM) by more than half, from 3.6 s to 1.6 s, by fixing a per-article retailer-group lookup in the product API: it now runs once per request, with catalog access checks running concurrently.
+- **Project technical lead:** Development captain on add-article, initial delivery and schedule replenishment, accountable for delivery. Wrote acceptance criteria for the strategy list, split epics into frontend and backend tickets for three engineers, and owned the API contract. Ran knowledge-sharing sessions on Elasticsearch and Angular change detection.
+- **Production reliability:** Traced orders stuck before export to the order engine missing its SQS messages, then built an hourly AWS EventBridge and Terraform monitor that alerts the team in Slack. It caught 25 stuck orders from July to October 2026, all recovered, and prompted a project to retry failed orders automatically.
+- **Shared size matrix:** Centralized size logic (waist and length, letter and plus sizes, prepacks) into one service shared by ordering and replenishment, replacing duplicated grid logic, and carried size data into Elasticsearch filters.
 - **Brand page builder:** Co-built a multilingual builder, contributing drag-and-drop editing, asset uploads, previews and supporting APIs.
 - **Security:** Moved authenticated image loading from query-string tokens to Authorization headers with client-side blob caching and backwards-compatible server support.
 
@@ -34,7 +34,7 @@ I hold a Dutch highly skilled migrant (HSM) residence permit and require an IND-
 
 ## 🤖 How I work
 
-I settle the contract before writing code. When a feature starts, I check the ticket against its PRD, Figma designs and API, and resolve each gap with a decision, not an assumption. Then I split the work into frontend and backend tickets and hold the code to a written standard (the B2B ESLint style guide). I wrote AI agent skills that run the first check and recommend how to settle each gap. I make the call.
+I settle the contract before writing code. When a feature starts, I check the ticket against its PRD, Figma designs and API, and resolve each gap with a decision, not an assumption. Then I split the work into frontend and backend tickets and hold the code to a written standard (the B2B style guide I authored, enforced with ESLint). I work in Cursor with a spec, plan and subagent-implementation workflow, with a reviewer per task, built on open-source skills such as Superpowers. I wrote custom skills that run the first check and recommend how to settle each gap. I make the call.
 
 ## Previously at Arbisoft
 
